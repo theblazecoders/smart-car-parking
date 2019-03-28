@@ -1,0 +1,1 @@
+rm -R /var/www/html/carParking/ && cp -r frontend/ /var/www/html/carParking/

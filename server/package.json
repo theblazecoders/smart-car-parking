@@ -1,0 +1,24 @@
+{
+  "name": "project-express-app-test",
+  "repository": "github.com/HarshKhandeparkar/repo",
+  "version": "1.0.0",
+  "description": "Express App For ATL project",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon",
+    "reset": "node src/resetCarData.js"
+  },
+  "author": "Harsh Khandeparkar",
+  "license": "ISC",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "ip": "^1.1.5",
+    "json-beautify": "^1.0.1",
+    "qrcode": "^1.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
