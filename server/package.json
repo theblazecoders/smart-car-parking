@@ -9,7 +9,7 @@
     "setup": "npm install",
     "reset": "node src/resetCarData.js"
   },
-  "author": "Harsh Khandeparkar",
+  "author": "ATL Goa",
   "license": "ISC",
   "dependencies": {
     "base64-img": "^1.0.4",
