@@ -6,6 +6,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon",
+    "setup": "npm install",
     "reset": "node src/resetCarData.js"
   },
   "author": "Harsh Khandeparkar",
