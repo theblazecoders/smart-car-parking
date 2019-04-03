@@ -31,7 +31,7 @@ module.exports = {
   getRandPass: (size = 4, max = Math.random(), min = Math.random()) => {
     let pass = Math.random() * (max - min) + min;
     pass *= (Math.pow(10, size));
-    pass = Math.floor(pass).length == size ? Math.floor(pass * Math.pow(10, (Math.floor(pass).length - size))) : Math.floor(pass);
+    pass = Math.floor(pass).length != size ? Math.floor(pass * Math.pow(10, (Math.floor(pass).length - size))) : Math.floor(pass);
     return pass;
   },
   encrypt: (pass, password) => {
