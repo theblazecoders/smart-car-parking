@@ -1,9 +1,10 @@
 {
-  "name": "smart-car-parking",
+  "name": "smart-car-parking-frontend",
   "version": "1.0.0",
-  "description": "Smart Car Parking Project",
+  "description": "A Simple Parking Tracker for Smart Car Parking Project",
   "main": "index.js",
   "scripts": {
+    "setup": "npm install"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/HarshKhandeparkar/smart-car-parking/issues"
   },
-  "homepage": "https://github.com/HarshKhandeparkar/smart-car-parking#readme"
+  "homepage": "https://github.com/HarshKhandeparkar/smart-car-parking#readme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "materialize-css": "^1.0.0"
+  }
 }
