@@ -49,7 +49,7 @@ Return value is a JSON object with the following data
 
 ### Frontend (realtime tracking)
 
-TODO: Add a picture.
+![frontend-gif](images/frontend.gif)
 
 This is a simple website written in HTML, CSS, JS using Materialize and JQuery.
 

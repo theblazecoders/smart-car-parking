@@ -1,12 +1,12 @@
 {
-  "occupancy": 0,
+  "occupancy": 1,
   "password": "7cuz*TqAuRTxpVIH",
   "numberOfTowers": 6,
   "totalSize": 36,
   "towers": [
     {
       "location": 0,
-      "occupied": 0,
+      "occupied": 1,
       "size": 6,
       "indexes": [
         {
@@ -18,10 +18,10 @@
         },
         {
           "index": 1,
-          "isOccupied": null,
-          "occupiedTimeStamp": null,
-          "ownerName": null,
-          "passkey": null
+          "isOccupied": true,
+          "occupiedTimeStamp": 1554370445927,
+          "ownerName": "HK",
+          "passkey": "48a57f8a"
         },
         {
           "index": 2,
@@ -67,7 +67,7 @@
         },
         {
           "index": 1,
-          "isOccupied": false,
+          "isOccupied": null,
           "occupiedTimeStamp": null,
           "ownerName": null,
           "passkey": null
