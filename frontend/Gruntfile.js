@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-uglify-es');
   grunt.loadNpmTasks('grunt-browserify');
   grunt.loadNpmTasks('grunt-css-import');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
@@ -8,13 +8,13 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     browserify: {
       ui: {
-        src: ["js/index.js"],
+        src: ['js/index.js'],
         dest: "dist/js/ui.js"
       }
     },
     uglify: {
       ui: {
-        src: 'dist/js/ui.js',
+        src: ['dist/js/ui.js'],
         dest: 'dist/js/ui.min.js'
       }
     },
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         options: {},
 
         files: {
-          'dist/css/ui.css': ["css/index.css"]
+          'dist/css/ui.css': ['css/index.css']
         }
       }
     },
