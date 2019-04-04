@@ -4,7 +4,7 @@
   "description": "A Simple Parking Tracker for Smart Car Parking Project",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install"
+    "setup": "npm install && npm i -g grunt-cli && grunt build"
   },
   "repository": {
     "type": "git",
