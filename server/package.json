@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon",
-    "setup": "npm install",
+    "setup": "npm install && npm run reset",
     "reset": "node src/resetCarData.js"
   },
   "author": "ATL Goa",
