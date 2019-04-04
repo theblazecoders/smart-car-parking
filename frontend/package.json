@@ -19,5 +19,12 @@
   "dependencies": {
     "jquery": "^3.3.1",
     "materialize-css": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-css-import": "^0.1.9"
   }
 }

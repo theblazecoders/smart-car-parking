@@ -4,6 +4,7 @@
   "description": "Smart Car Parking Project",
   "main": "server/src/index.js",
   "scripts": {
+    "setup": "npm install && npm install -g grunt-cli"
   },
   "repository": {
     "type": "git",
