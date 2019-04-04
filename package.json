@@ -2,7 +2,7 @@
   "name": "smart-car-parking",
   "version": "1.0.0",
   "description": "Smart Car Parking Project",
-  "main": "index.js",
+  "main": "server/src/index.js",
   "scripts": {
   },
   "repository": {
