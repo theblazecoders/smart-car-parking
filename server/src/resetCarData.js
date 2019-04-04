@@ -1,7 +1,7 @@
 const
   fs = require('fs'),
   path = require('path'),
-  beautify = require("json-beautify");
+  beautify = require('json-beautify');
 
 const makePass = (wordMap, size) => {
   const
@@ -102,6 +102,8 @@ const towersInfo = {
     }
   ]
 }
+
+if (!fs.existsSync(path.join(__dirname, '../userData'))) fs.mkdirSync(path.join(__dirname, '../userData'));
 
 fs.writeFileSync(path.join(__dirname, '../userData/towersInfo.json'), beautify(towersInfo, null, 2, 100));
 
