@@ -73,7 +73,7 @@ Yet to be added
 
 ****
 ### Authors
-- Harsh Khandeparkar - @HarshKhandeparkar
+- Harsh Khandeparkar - [**@HarshKhandeparkar**](https://github.com/HarshKhandeparkar)
 
 ### Members
 - Harsh Khandeparkar (contributor) - [**@HarshKhandeparkar**](https://github.com/HarshKhandeparkar)
