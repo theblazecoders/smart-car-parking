@@ -1,0 +1,19 @@
+{
+  "name": "smart-car-parking",
+  "version": "1.0.0",
+  "description": "Smart Car Parking Project",
+  "main": "server/src/index.js",
+  "scripts": {
+    "setup": "npm install && npm install -g grunt-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshKhandeparkar/smart-car-parking.git"
+  },
+  "author": "ATL Goa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshKhandeparkar/smart-car-parking/issues"
+  },
+  "homepage": "https://github.com/HarshKhandeparkar/smart-car-parking#readme"
+}
