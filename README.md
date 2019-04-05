@@ -76,13 +76,13 @@ Yet to be added
 - Harsh Khandeparkar - @HarshKhandeparkar
 
 ### Members
-- Harsh Khandeparkar (contributor) - @HarshKhandeparkar
-- Sahil Patel (contributor) - @sahil-patel6
+- Harsh Khandeparkar (contributor) - [**@HarshKhandeparkar**](https://github.com/HarshKhandeparkar)
+- Sahil Patel (contributor) - [**@sahil-patel6**](https://github.com/sahil-patel6)
 - Omkar Sawant (hardware)
 - Shlok Zambrekar (hardware)
 
 ### Credits
-Yet to be addee
+Yet to be added
 
-****
-> By ATL Ponda, Goa
+
+> By Atal Tinkering Lab Ponda, Goa
