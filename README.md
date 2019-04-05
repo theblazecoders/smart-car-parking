@@ -2,7 +2,8 @@
 This project has three parts:
 1. **Server**: For managing towers.
 2. **Frontend**: To track the parking lots.
-3. **Arduino**: Arduino Code for controlling the towers.
+3. **Flutter**: A cross-platform mobile app made using Google Flutter.
+4. **Arduino**: Arduino Code for controlling the towers.
 
 The smart parking is divided into *tower*s and each *tower* is divided into parking lots called as *index*es or indices.
 ****
@@ -10,6 +11,7 @@ The smart parking is divided into *tower*s and each *tower* is divided into park
 - [Installation](#installation)
 - [Server](#server)
 - [Frontend](#frontend-realtime-tracking)
+- [Flutter](#flutter)
 - [Arduino](#arduino)
 - [Authors](#authors)
 - [Members](#members)
@@ -67,6 +69,9 @@ This is a simple website written in HTML, CSS, JS using Materialize and JQuery.
 
 The script `frontSync` copies all of the frontend code into `/var/www/html/carParking/` for a linux system with Apache server configured.
 To run the script periodically, run `watch -n [time-in-sec] ./frontSync`.
+
+### Flutter
+Yet to be added
 
 ### Arduino
 Yet to be added
