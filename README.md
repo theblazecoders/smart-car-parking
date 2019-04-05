@@ -14,6 +14,9 @@ The smart parking is divided into *tower*s and each *tower* is divided into park
 - [Authors](#authors)
 - [Members](#members)
 - [Credits](#credits)
+****
+### Installation
+Yet to be added
 
 ### Server
 This is an express app with the following endpoints. The default port is `3000`.
@@ -66,3 +69,20 @@ The script `frontSync` copies all of the frontend code into `/var/www/html/carPa
 To run the script periodically, run `watch -n [time-in-sec] ./frontSync`.
 
 ### Arduino
+Yet to be added
+
+****
+### Authors
+- Harsh Khandeparkar - @HarshKhandeparkar
+
+### Members
+- Harsh Khandeparkar (contributor) - @HarshKhandeparkar
+- Sahil Patel (contributor) - @sahil-patel6
+- Omkar Sawant (hardware)
+- Shlok Zambrekar (hardware)
+
+### Credits
+Yet to be addee
+
+****
+> By ATL Ponda, Goa
