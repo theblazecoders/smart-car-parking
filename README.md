@@ -9,7 +9,7 @@ The smart parking is divided into *tower*s and each *tower* is divided into park
 ### Table of Contents
 - [Installation](#installation)
 - [Server](#server)
-- [Frontend](frontend-realtime-tracking)
+- [Frontend](#frontend-realtime-tracking)
 - [Arduino](#arduino)
 - [Authors](#authors)
 - [Members](#members)
