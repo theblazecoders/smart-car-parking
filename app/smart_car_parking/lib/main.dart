@@ -3,27 +3,32 @@ import 'package:flutter/material.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Smart Car Parking',
       theme: ThemeData.dark(),
-      home: HomePage(title: 'Smart Car Parking'),
+      home: MyHomePage(title: 'Smart Car Parking'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
 
-class HomePage extends StatelessWidget {
+class MyHomePage extends StatelessWidget {
   final String title;
-  HomePage({this.title});
+
+  MyHomePage({this.title});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(this.title),
-      ),
-      body: Center(child: Text("Hello World")),
-    );
+        appBar: AppBar(
+          title: Text(this.title),
+        ),
+        body: Center(
+            child: Text(
+          "Hello World",
+          style: TextStyle(fontSize: 25, color: Colors.white),
+        )));
   }
 }
