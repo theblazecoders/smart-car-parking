@@ -5,6 +5,15 @@ This project has three parts:
 3. **Arduino**: Arduino Code for controlling the towers.
 
 The smart parking is divided into *tower*s and each *tower* is divided into parking lots called as *index*es or indices.
+****
+### Table of Contents
+- [Installation](#installation)
+- [Server](#server)
+- [Frontend](frontend-realtime-tracking)
+- [Arduino](#arduino)
+- [Authors](#authors)
+- [Members](#members)
+- [Credits](#credits)
 
 ### Server
 This is an express app with the following endpoints. The default port is `3000`.
