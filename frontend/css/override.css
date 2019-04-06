@@ -1,1 +1,8 @@
+.card-action a{
+  user-select: none;
+  -webkit-user-select: none;
+}
 
+.card-action a:hover{
+  cursor: default;
+}
