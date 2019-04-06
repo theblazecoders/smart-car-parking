@@ -1,13 +1,13 @@
 {
-  "name": "smart_car_parking_data_reset_script",
+  "name": "Smart Car Parking Firebase Scripts"
   "version": "1.0.0",
-  "description": "This script is used to reset data in fiirebase",
+  "description": "This script is used for firebase administration purposes",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "author": "Sahil Patel",
+  "author": "ATL Ponda, Goa",
   "license": "ISC",
   "dependencies": {
     "firebase-admin": "^7.2.0"
