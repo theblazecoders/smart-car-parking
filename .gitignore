@@ -11,4 +11,4 @@ dist/
 dist/*
 
 # API key
-firebase-credentials.json
+firebase-data.json
