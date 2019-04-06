@@ -1,7 +1,7 @@
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./admin.json");
+var serviceAccount = require("../api-key.json");
 
 const numberOfTowers = 6;
 
