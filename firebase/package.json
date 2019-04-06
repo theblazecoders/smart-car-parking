@@ -4,8 +4,8 @@
   "description": "This script is used for firebase administration purposes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "setup": "npm i",
+    "firestore-reset": "node scripts/reset.js"
   },
   "author": "ATL Ponda, Goa",
   "license": "ISC",
