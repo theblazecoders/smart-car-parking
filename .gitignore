@@ -1,6 +1,14 @@
+# Node Modules
 node_modules/
 node_modules/*
+
+# User Data
 userData/
 userData/*
+
+# Dist Files
 dist/
 dist/*
+
+# API key
+firebase-credentials.json
