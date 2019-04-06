@@ -1,5 +1,5 @@
 {
-  "name": "Smart Car Parking Firebase Scripts"
+  "name": "Smart Car Parking Firebase Scripts",
   "version": "1.0.0",
   "description": "This script is used for firebase administration purposes",
   "main": "index.js",
