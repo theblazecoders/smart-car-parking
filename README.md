@@ -18,7 +18,7 @@ The smart parking is divided into *tower*s and each *tower* is divided into park
 - [Credits](#credits)
 ****
 ### Installation
-Yet to be added
+Will be added soon !!!
 
 ### Server
 This is an express app with the following endpoints. The default port is `3000`.
