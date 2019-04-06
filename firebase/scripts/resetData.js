@@ -1,15 +1,15 @@
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./admin.json");
+var firebaseData = require("../firebase-data.json");
 
 const numberOfTowers = 6;
 
 const numberOfParkingSlots = 6;
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://smart-car-parking-5dfda.firebaseio.com"
+  credential: admin.credential.cert(firebaseData.serviceAccountKey),
+  databaseURL: firebaseData.dbURL
 });
 
 

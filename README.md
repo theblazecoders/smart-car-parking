@@ -9,6 +9,7 @@ The smart parking is divided into *tower*s and each *tower* is divided into park
 ****
 ### Table of Contents
 - [Installation](#installation)
+- [Firebase](#firebase)
 - [Server](#server)
 - [Frontend](#frontend-realtime-tracking)
 - [Flutter](#flutter)
@@ -19,6 +20,9 @@ The smart parking is divided into *tower*s and each *tower* is divided into park
 ****
 ### Installation
 Yet to be added
+
+### Firebase
+Yet to be ddea
 
 ### Server
 This is an express app with the following endpoints. The default port is `3000`.
