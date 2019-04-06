@@ -88,7 +88,8 @@ Yet to be added
 - Shlok Zambrekar (hardware)
 
 ### Credits
-Yet to be added
+#### Contributors
+- Harshith Pabbati - [**@Harshithpabbati**](https://github.com/Harshithpabbati)
 
 
 > By Atal Tinkering Lab Ponda, Goa
