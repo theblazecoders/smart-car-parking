@@ -71,9 +71,6 @@ Return value is a JSON object with the following data
 
 This is a simple website written in HTML, CSS, JS using Materialize and JQuery.
 
-The script `frontSync` copies all of the frontend code into `/var/www/html/carParking/` for a linux system with Apache server configured.
-To run the script periodically, run `watch -n [time-in-sec] ./frontSync`.
-
 ### Flutter
 Yet to be added
 
