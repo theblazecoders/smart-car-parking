@@ -1,5 +1,4 @@
-## Smart Car Parking Project for ATL
-[![Gitter](https://badges.gitter.im/atl-ponda/smart-car-parking.svg)](https://gitter.im/atl-ponda/smart-car-parking?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+## Smart Car Parking Project
 This project has three parts:
 1. **Server**: For managing towers.
 2. **Frontend**: To track the parking lots.
@@ -86,12 +85,13 @@ Yet to be added
 - Sr. Laukik Prabhu (mentor)
 - Harsh Khandeparkar (contributor) - [**@HarshKhandeparkar**](https://github.com/HarshKhandeparkar)
 - Sahil Patel (contributor) - [**@sahil-patel6**](https://github.com/sahil-patel6)
+- Harshith Pabbati - [**@Harshithpabbati**](https://github.com/Harshithpabbati)
 - Omkar Sawant (hardware)
 - Shlok Zambrekar (hardware)
 
 ### Credits
 #### Contributors
-- Harshith Pabbati - [**@Harshithpabbati**](https://github.com/Harshithpabbati)
 
 
-> By Atal Tinkering Lab Ponda, Goa
+
+> By The Blaze Coders, India
