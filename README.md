@@ -1,4 +1,5 @@
 ## Smart Car Parking Project for ATL
+[![Gitter](https://badges.gitter.im/atl-ponda/smart-car-parking.svg)](https://gitter.im/atl-ponda/smart-car-parking?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 This project has three parts:
 1. **Server**: For managing towers.
 2. **Frontend**: To track the parking lots.
