@@ -11,4 +11,4 @@ dist/
 dist/*
 
 # API key
-firebase-data.json
+service_key.json
