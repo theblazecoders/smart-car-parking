@@ -1,3 +1,4 @@
+[![Gitter](https://badges.gitter.im/the-blaze-coders/smart-car-parking.svg)](https://gitter.im/the-blaze-coders/smart-car-parking?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ## Smart Car Parking Project
 This project has three parts:
 1. **Server**: For managing towers.
