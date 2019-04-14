@@ -1,55 +1,50 @@
+module.exports = (firebaseData) => {
+  var admin = require("firebase-admin");
+  const numberOfTowers = 6;
+  const numberOfParkingSlots = 6;
 
-var admin = require("firebase-admin");
+  admin.initializeApp({
+    credential: admin.credential.cert(firebaseData.serviceAccountKey),
+    databaseURL: firebaseData.dbURL
+  });
 
-var firebaseData = require("../firebase-data.json");
+  var db = admin.firestore();
 
-const numberOfTowers = 6;
+  var towersInfo = db.collection("towersInfo");
 
-const numberOfParkingSlots = 6;
-
-admin.initializeApp({
-  credential: admin.credential.cert(firebaseData.serviceAccountKey),
-  databaseURL: firebaseData.dbURL
-});
-
-
-var db = admin.firestore();
-
-var towersInfo = db.collection("towersInfo");
-
-towersInfo.doc("occupancy").set({
+  towersInfo.doc("occupancy").set({
     "occupancy":0
-});
+  });
 
-towersInfo.doc("numberOfTowers").set({
+  towersInfo.doc("numberOfTowers").set({
     "numberOfTowers":numberOfTowers
-});
+  });
 
-towersInfo.doc("totalSize").set({
+  towersInfo.doc("totalSize").set({
     "occupancy": numberOfTowers * numberOfParkingSlots
-});
+  });
 
-var towers = [];
+  var towers = [];
 
-for(var i=0;i<numberOfTowers;i++){
+  for(var i=0;i<numberOfTowers;i++){
 
     var parkingSlots = [];
     for(var j =0 ;j < numberOfParkingSlots;j++){
-        parkingSlots.push({
-            "index": j,
-            "isOccupied":false,
-            "occupiedTimeStamp":null,
-            "ownerName":"",
-            "ownerEmailID": "",
-            "password":"",
-        })
+      parkingSlots.push({
+        "index": j,
+        "isOccupied":false,
+        "occupiedTimeStamp":null,
+        "ownerName":"",
+        "ownerEmailID": "",
+        "password":"",
+      })
     }
     towers.push({
-        "location" : 0,
-        "occupied":0,
-        "size":numberOfParkingSlots,
-        "parkingSlots": parkingSlots,
+      "location" : 0,
+      "occupied":0,
+      "size":numberOfParkingSlots,
+      "parkingSlots": parkingSlots,
     })
+  }
+  towersInfo.doc("towers").set({"towers":towers});
 }
-towersInfo.doc("towers").set({"towers":towers});
-
