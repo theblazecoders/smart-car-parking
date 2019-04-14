@@ -4,8 +4,7 @@
   "description": "Smart Car Parking Project",
   "main": "index.js",
   "scripts": {
-    "setup": "npm i",
-    "firestore-reset": "node firebase/scripts/reset.js"
+    "setup": "npm i"
   },
   "repository": {
     "type": "git",
