@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/theblazecoders/smart-car-parking/issues"
   },
-  "homepage": "https://theblazecoders.github.io/smart-car-parking#readme",
+  "homepage": "https://theblazecoders.github.io/smart-car-parking",
   "dependencies": {
     "firebase-admin": "^7.2.0"
   }
