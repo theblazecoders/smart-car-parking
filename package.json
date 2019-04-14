@@ -2,18 +2,22 @@
   "name": "smart-car-parking",
   "version": "1.0.0",
   "description": "Smart Car Parking Project",
-  "main": "server/src/index.js",
+  "main": "index.js",
   "scripts": {
-    "setup": "npm install && npm install -g grunt-cli"
+    "setup": "npm i",
+    "firestore-reset": "node firebase/scripts/reset.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HarshKhandeparkar/smart-car-parking.git"
+    "url": "git+https://github.com/theblazecoders/smart-car-parking.git"
   },
-  "author": "ATL Ponda, Goa",
+  "author": "The Blaze Coders",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HarshKhandeparkar/smart-car-parking/issues"
+    "url": "https://github.com/theblazecoders/smart-car-parking/issues"
   },
-  "homepage": "https://github.com/HarshKhandeparkar/smart-car-parking#readme"
+  "homepage": "https://theblazecoders.github.io/smart-car-parking#readme",
+  "dependencies": {
+    "firebase-admin": "^7.2.0"
+  }
 }

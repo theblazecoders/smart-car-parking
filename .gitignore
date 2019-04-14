@@ -2,13 +2,5 @@
 node_modules/
 node_modules/*
 
-# User Data
-userData/
-userData/*
-
-# Dist Files
-dist/
-dist/*
-
 # API key
-service_key.json
+firebase-data.json

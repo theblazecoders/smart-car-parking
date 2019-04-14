@@ -1,15 +1,15 @@
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("../service_key.json");
+var firebaseData = require("../firebase-data.json");
 
 const numberOfTowers = 6;
 
 const numberOfParkingSlots = 6;
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: serviceAccount.databaseURL,
+  credential: admin.credential.cert(firebaseData.serviceAccountKey),
+  databaseURL: firebaseData.dbURL
 });
 
 
@@ -36,17 +36,17 @@ for(var i=0;i<numberOfTowers;i++){
     var parkingSlots = [];
     for(var j =0 ;j < numberOfParkingSlots;j++){
         parkingSlots.push({
-            "index": j+1,
+            "index": j,
             "isOccupied":false,
             "occupiedTimeStamp":null,
+            "ownerName":"",
             "ownerEmailID": "",
             "password":"",
         })
     }
     towers.push({
-        "location" : i+1,
+        "location" : 0,
         "occupied":0,
-        "availableSlots":numberOfParkingSlots,
         "size":numberOfParkingSlots,
         "parkingSlots": parkingSlots,
     })
