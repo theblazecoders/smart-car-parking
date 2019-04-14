@@ -1,6 +1,6 @@
 {
   "name": "smart-car-parking",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Smart Car Parking Project",
   "main": "index.js",
   "scripts": {
