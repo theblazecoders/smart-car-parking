@@ -7,44 +7,35 @@ module.exports = (firebaseData) => {
     credential: admin.credential.cert(firebaseData.serviceAccountKey),
     databaseURL: firebaseData.dbURL
   });
-
   var db = admin.firestore();
 
   var towersInfo = db.collection("towersInfo");
 
-  towersInfo.doc("occupancy").set({
-    "occupancy":0
+  var users = db.collection("parkingSlotsPassword");
+
+  users.doc("user").set({
+    password: "@nvlksdnvklsdnvlksdnv"
   });
 
-  towersInfo.doc("numberOfTowers").set({
-    "numberOfTowers":numberOfTowers
+  towersInfo.doc("mainInfo").set({
+    occupancy: 0,
+    numberOfTowers: numberOfTowers,
+    occupancy: numberOfTowers * numberOfParkingSlots,
+    numberOfParkingSlots: numberOfParkingSlots
   });
 
-  towersInfo.doc("totalSize").set({
-    "occupancy": numberOfTowers * numberOfParkingSlots
-  });
-
-  var towers = [];
-
-  for(var i=0;i<numberOfTowers;i++){
-
-    var parkingSlots = [];
-    for(var j =0 ;j < numberOfParkingSlots;j++){
-      parkingSlots.push({
-        "index": j,
-        "isOccupied":false,
-        "occupiedTimeStamp":null,
-        "ownerName":"",
-        "ownerEmailID": "",
-        "password":"",
-      })
+  for(var i =1 ; i<= numberOfTowers;i++){
+    var tower = {};
+    tower['availableSlots'] = 0;
+    tower['occupied'] = numberOfParkingSlots;
+    tower['size'] = numberOfParkingSlots;
+    for(var j=1;j<=numberOfParkingSlots;j++){
+      tower['parkingSlot'+j] = {
+        isOccupied : false,
+        occupiedTimeStamp: null,
+        ownerID: "",
+      }
     }
-    towers.push({
-      "location" : 0,
-      "occupied":0,
-      "size":numberOfParkingSlots,
-      "parkingSlots": parkingSlots,
-    })
+    towersInfo.doc("tower"+i).set(tower);
   }
-  towersInfo.doc("towers").set({"towers":towers});
 }
