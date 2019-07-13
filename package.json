@@ -17,7 +17,7 @@
   },
   "homepage": "https://theblazecoders.github.io/smart-car-parking",
   "dependencies": {
-    "firebase-admin": "^7.3.0",
+    "firebase-admin": "^7.4.0",
     "firebase-functions": "^2.3.1"
   }
 }
